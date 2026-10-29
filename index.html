@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090909">
+<title> ÖZLEMİMEEEEE ❤️</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #ff123b;
+  --pink: #ff8ca4;
+  --black: #090909;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(ellipse at top, #40000d 0%, transparent 55%),
+    linear-gradient(160deg, #090909, #1b0006 60%, #090909);
+  color: white;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#hearts {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.heart {
+  position: absolute;
+  bottom: -50px;
+  color: var(--red);
+  text-shadow: 0 0 12px #ff123b;
+  animation: floatUp linear forwards;
+  opacity: 0;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) rotate(0deg) scale(.7);
+    opacity: 0;
+  }
+  15% { opacity: .8; }
+  85% { opacity: .7; }
+  100% {
+    transform: translateY(-115vh) rotate(35deg) scale(1.3);
+    opacity: 0;
+  }
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  width: min(92%, 700px);
+  margin: auto;
+  padding: 55px 0 35px;
+  text-align: center;
+}
+
+.top-heart {
+  font-size: 65px;
+  display: inline-block;
+  filter: drop-shadow(0 0 18px var(--red));
+  animation: beat 1.3s infinite;
+}
+
+@keyframes beat {
+  0%, 100% { transform: scale(1); }
+  15% { transform: scale(1.16); }
+  30% { transform: scale(1); }
+  45% { transform: scale(1.1); }
+}
+
+h1 {
+  margin: 20px 0 15px;
+  color: #ff234d;
+  font-size: clamp(34px, 8vw, 57px);
+  text-shadow: 0 0 12px #ff123b, 0 0 35px #a00020;
+}
+
+.subtitle {
+  color: #ffd7df;
+  font-size: 17px;
+  line-height: 1.9;
+}
+
+.divider {
+  width: 100px;
+  height: 2px;
+  margin: 28px auto;
+  background: linear-gradient(90deg, transparent, #ff234d, transparent);
+}
+
+.card {
+  padding: 30px 20px;
+  margin-top: 25px;
+  border: 1px solid #ff234d70;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #1b080bdf, #080808ed);
+  box-shadow: 0 0 30px #ff123b1c, inset 0 0 25px #ff123b08;
+}
+
+h2 {
+  margin-bottom: 22px;
+  color: #ff829b;
+  font-size: 27px;
+}
+
+.poem {
+  font-size: 18px;
+  line-height: 2;
+  color: #fff0f2;
+}
+
+.poem strong {
+  color: #ff6682;
+  font-weight: normal;
+}
+
+button {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 14px 23px;
+  border: 1px solid #ff8ca4;
+  border-radius: 40px;
+  background: linear-gradient(135deg, #ff123b, #a60022);
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 20px #ff123b45;
+  transition: transform .2s, box-shadow .2s;
+}
+
+button:active {
+  transform: scale(.96);
+}
+
+button:hover {
+  box-shadow: 0 0 28px #ff123b99;
+}
+
+#loveMessage {
+  display: none;
+  margin-top: 25px;
+  color: #ff9caf;
+  font-size: 22px;
+  line-height: 1.8;
+  animation: appear .7s ease;
+}
+
+@keyframes appear {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.promise {
+  margin-top: 28px;
+  color: #dcb9c0;
+  font-size: 15px;
+  line-height: 1.9;
+  font-style: italic;
+}
+
+footer {
+  padding: 30px 10px 10px;
+  color: #ff8ca4;
+  font-size: 14px;
+}
+
+.small-heart {
+  color: #ff123b;
+}
+
+@media (max-width: 480px) {
+  main { padding-top: 35px; }
+  .card { padding: 25px 15px; }
+  .poem { font-size: 16px; }
+  h2 { font-size: 24px; }
+}
+</style>
+</head>
+
+<body>
+<div id="hearts" aria-hidden="true"></div>
+
+<main>
+  <div class="top-heart">❤️</div>
+
+  <h1>Biricik Sevgilim</h1>
+
+  <p class="subtitle">
+    Bu sayfa sıradan bir sayfa değil...<br>
+    Kalbimin en güzel köşesinden sana bir hediye. 🌹
+  </p>
+
+  <div class="divider"></div>
+
+  <section class="card">
+    <h2>Kalbimden Sana 💌</h2>
+
+    <div class="poem">
+      Gözlerin gecemde parlayan yıldız,<br>
+      Sen varken dünyam olmaz renksiz.<br>
+      <strong>Gülüşün kalbime bahar getirir,</strong><br>
+      Adını duymak bile yüzümü güldürür.<br><br>
+
+      Belki kelimeler anlatamaz seni,<br>
+      Ama kalbim seçti bir tek seni.<br>
+      Her duamda mutluluk olsun payın,<br>
+      Sen benim en güzel yarınımsın.<br><br>
+
+      <strong>Bir ömür geçse de yanımdan,</strong><br>
+      Vazgeçmem kalbimdeki bu duygudan.<br>
+      Dünyada ne kadar güzellik varsa,<br>
+      Hepsi saklı senin bir bakışında. ❤️
+    </div>
+
+    <div class="divider"></div>
+
+    <p class="subtitle">
+      Sana söylemek istediğim bir şey var...
+    </p>
+
+    <button id="loveButton" type="button">
+      Mesajımı Aç ❤️
+    </button>
+
+    <div id="loveMessage" aria-live="polite">
+      Seni seviyorum ❤️<br>
+      İyi ki varsın, iyi ki kalbim seni tanımış.<br>
+      Bu sayfanın her satırında sana ait bir his var. 🌹
+    </div>
+  </section>
+
+  <section class="promise">
+    “Bazı insanlar hayatına gelir ve her şeyi değiştirir.
+    Sen de benim dünyamı güzelleştiren en özel insansın.”
+  </section>
+
+  <footer>
+    Sevgiyle hazırlandı <span class="small-heart">♥</span><br>
+    Sadece sana özel...
+  </footer>
+</main>
+
+<script>
+const heartContainer = document.getElementById("hearts");
+
+function createHeart() {
+  const heart = document.createElement("span");
+  heart.className = "heart";
+
+  const symbols = ["♥", "❤", "💕", "💗"];
+  heart.textContent =
+    symbols[Math.floor(Math.random() * symbols.length)];
+
+  heart.style.left = Math.random() * 100 + "%";
+  heart.style.fontSize = (14 + Math.random() * 25) + "px";
+  heart.style.animationDuration = (5 + Math.random() * 6) + "s";
+
+  heartContainer.appendChild(heart);
+
+  heart.addEventListener("animationend", () => heart.remove());
+}
+
+setInterval(createHeart, 350);
+
+const button = document.getElementById("loveButton");
+const message = document.getElementById("loveMessage");
+
+button.addEventListener("click", () => {
+  const isHidden = getComputedStyle(message).display === "none";
+
+  message.style.display = isHidden ? "block" : "none";
+  button.textContent = isHidden
+    ? "Mesajı Gizle 💗"
+    : "Mesajımı Aç ❤️";
+
+  if (isHidden) {
+    for (let i = 0; i < 12; i++) {
+      setTimeout(createHeart, i * 100);
+    }
+  }
+});
+</script>
+</body>
+</html>
